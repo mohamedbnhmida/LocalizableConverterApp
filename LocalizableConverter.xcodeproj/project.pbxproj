@@ -12,37 +12,37 @@
 			containerPortal = E8FD5FEC2D09D489009A8FFB /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E8FD5FF32D09D489009A8FFB;
-			remoteInfo = LocalizableConverterApp;
+			remoteInfo = LocalizableConverter;
 		};
 		E8FD60102D09D48B009A8FFB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E8FD5FEC2D09D489009A8FFB /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E8FD5FF32D09D489009A8FFB;
-			remoteInfo = LocalizableConverterApp;
+			remoteInfo = LocalizableConverter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E8FD5FF42D09D489009A8FFB /* LocalizableConverterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizableConverterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8FD60052D09D48B009A8FFB /* LocalizableConverterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizableConverterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8FD600F2D09D48B009A8FFB /* LocalizableConverterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizableConverterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8FD5FF42D09D489009A8FFB /* LocalizableConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizableConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8FD60052D09D48B009A8FFB /* LocalizableConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizableConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8FD600F2D09D48B009A8FFB /* LocalizableConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizableConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E8FD5FF62D09D489009A8FFB /* LocalizableConverterApp */ = {
+		E8FD5FF62D09D489009A8FFB /* LocalizableConverter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LocalizableConverterApp;
+			path = LocalizableConverter;
 			sourceTree = "<group>";
 		};
-		E8FD60082D09D48B009A8FFB /* LocalizableConverterAppTests */ = {
+		E8FD60082D09D48B009A8FFB /* LocalizableConverterTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LocalizableConverterAppTests;
+			path = LocalizableConverterTests;
 			sourceTree = "<group>";
 		};
-		E8FD60122D09D48B009A8FFB /* LocalizableConverterAppUITests */ = {
+		E8FD60122D09D48B009A8FFB /* LocalizableConverterUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LocalizableConverterAppUITests;
+			path = LocalizableConverterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		E8FD5FEB2D09D489009A8FFB = {
 			isa = PBXGroup;
 			children = (
-				E8FD5FF62D09D489009A8FFB /* LocalizableConverterApp */,
-				E8FD60082D09D48B009A8FFB /* LocalizableConverterAppTests */,
-				E8FD60122D09D48B009A8FFB /* LocalizableConverterAppUITests */,
+				E8FD5FF62D09D489009A8FFB /* LocalizableConverter */,
+				E8FD60082D09D48B009A8FFB /* LocalizableConverterTests */,
+				E8FD60122D09D48B009A8FFB /* LocalizableConverterUITests */,
 				E8FD5FF52D09D489009A8FFB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		E8FD5FF52D09D489009A8FFB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E8FD5FF42D09D489009A8FFB /* LocalizableConverterApp.app */,
-				E8FD60052D09D48B009A8FFB /* LocalizableConverterAppTests.xctest */,
-				E8FD600F2D09D48B009A8FFB /* LocalizableConverterAppUITests.xctest */,
+				E8FD5FF42D09D489009A8FFB /* LocalizableConverter.app */,
+				E8FD60052D09D48B009A8FFB /* LocalizableConverterTests.xctest */,
+				E8FD600F2D09D48B009A8FFB /* LocalizableConverterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E8FD5FF32D09D489009A8FFB /* LocalizableConverterApp */ = {
+		E8FD5FF32D09D489009A8FFB /* LocalizableConverter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8FD60192D09D48B009A8FFB /* Build configuration list for PBXNativeTarget "LocalizableConverterApp" */;
+			buildConfigurationList = E8FD60192D09D48B009A8FFB /* Build configuration list for PBXNativeTarget "LocalizableConverter" */;
 			buildPhases = (
 				E8FD5FF02D09D489009A8FFB /* Sources */,
 				E8FD5FF12D09D489009A8FFB /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E8FD5FF62D09D489009A8FFB /* LocalizableConverterApp */,
+				E8FD5FF62D09D489009A8FFB /* LocalizableConverter */,
 			);
-			name = LocalizableConverterApp;
+			name = LocalizableConverter;
 			packageProductDependencies = (
 			);
-			productName = LocalizableConverterApp;
-			productReference = E8FD5FF42D09D489009A8FFB /* LocalizableConverterApp.app */;
+			productName = LocalizableConverter;
+			productReference = E8FD5FF42D09D489009A8FFB /* LocalizableConverter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E8FD60042D09D48B009A8FFB /* LocalizableConverterAppTests */ = {
+		E8FD60042D09D48B009A8FFB /* LocalizableConverterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8FD601C2D09D48B009A8FFB /* Build configuration list for PBXNativeTarget "LocalizableConverterAppTests" */;
+			buildConfigurationList = E8FD601C2D09D48B009A8FFB /* Build configuration list for PBXNativeTarget "LocalizableConverterTests" */;
 			buildPhases = (
 				E8FD60012D09D48B009A8FFB /* Sources */,
 				E8FD60022D09D48B009A8FFB /* Frameworks */,
@@ -131,18 +131,18 @@
 				E8FD60072D09D48B009A8FFB /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E8FD60082D09D48B009A8FFB /* LocalizableConverterAppTests */,
+				E8FD60082D09D48B009A8FFB /* LocalizableConverterTests */,
 			);
-			name = LocalizableConverterAppTests;
+			name = LocalizableConverterTests;
 			packageProductDependencies = (
 			);
-			productName = LocalizableConverterAppTests;
-			productReference = E8FD60052D09D48B009A8FFB /* LocalizableConverterAppTests.xctest */;
+			productName = LocalizableConverterTests;
+			productReference = E8FD60052D09D48B009A8FFB /* LocalizableConverterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E8FD600E2D09D48B009A8FFB /* LocalizableConverterAppUITests */ = {
+		E8FD600E2D09D48B009A8FFB /* LocalizableConverterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8FD601F2D09D48B009A8FFB /* Build configuration list for PBXNativeTarget "LocalizableConverterAppUITests" */;
+			buildConfigurationList = E8FD601F2D09D48B009A8FFB /* Build configuration list for PBXNativeTarget "LocalizableConverterUITests" */;
 			buildPhases = (
 				E8FD600B2D09D48B009A8FFB /* Sources */,
 				E8FD600C2D09D48B009A8FFB /* Frameworks */,
@@ -154,13 +154,13 @@
 				E8FD60112D09D48B009A8FFB /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E8FD60122D09D48B009A8FFB /* LocalizableConverterAppUITests */,
+				E8FD60122D09D48B009A8FFB /* LocalizableConverterUITests */,
 			);
-			name = LocalizableConverterAppUITests;
+			name = LocalizableConverterUITests;
 			packageProductDependencies = (
 			);
-			productName = LocalizableConverterAppUITests;
-			productReference = E8FD600F2D09D48B009A8FFB /* LocalizableConverterAppUITests.xctest */;
+			productName = LocalizableConverterUITests;
+			productReference = E8FD600F2D09D48B009A8FFB /* LocalizableConverterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E8FD5FEF2D09D489009A8FFB /* Build configuration list for PBXProject "LocalizableConverterApp" */;
+			buildConfigurationList = E8FD5FEF2D09D489009A8FFB /* Build configuration list for PBXProject "LocalizableConverter" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E8FD5FF32D09D489009A8FFB /* LocalizableConverterApp */,
-				E8FD60042D09D48B009A8FFB /* LocalizableConverterAppTests */,
-				E8FD600E2D09D48B009A8FFB /* LocalizableConverterAppUITests */,
+				E8FD5FF32D09D489009A8FFB /* LocalizableConverter */,
+				E8FD60042D09D48B009A8FFB /* LocalizableConverterTests */,
+				E8FD600E2D09D48B009A8FFB /* LocalizableConverterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		E8FD60072D09D48B009A8FFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E8FD5FF32D09D489009A8FFB /* LocalizableConverterApp */;
+			target = E8FD5FF32D09D489009A8FFB /* LocalizableConverter */;
 			targetProxy = E8FD60062D09D48B009A8FFB /* PBXContainerItemProxy */;
 		};
 		E8FD60112D09D48B009A8FFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E8FD5FF32D09D489009A8FFB /* LocalizableConverterApp */;
+			target = E8FD5FF32D09D489009A8FFB /* LocalizableConverter */;
 			targetProxy = E8FD60102D09D48B009A8FFB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -392,11 +392,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = LocalizableConverterApp/LocalizableConverterApp.entitlements;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = LocalizableConverter/LocalizableConverter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LocalizableConverterApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LocalizableConverter/Preview Content\"";
+				DEVELOPMENT_TEAM = KQX6LF75B7;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -405,7 +408,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = otbs.LocalizableConverterApp;
+				PRODUCT_BUNDLE_IDENTIFIER = otbs.LocalizableConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -417,11 +420,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = LocalizableConverterApp/LocalizableConverterApp.entitlements;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = LocalizableConverter/LocalizableConverter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LocalizableConverterApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LocalizableConverter/Preview Content\"";
+				DEVELOPMENT_TEAM = KQX6LF75B7;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -430,7 +436,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = otbs.LocalizableConverterApp;
+				PRODUCT_BUNDLE_IDENTIFIER = otbs.LocalizableConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -446,11 +452,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = otbs.LocalizableConverterAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = otbs.LocalizableConverterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalizableConverterApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LocalizableConverterApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalizableConverter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LocalizableConverter";
 			};
 			name = Debug;
 		};
@@ -463,11 +469,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = otbs.LocalizableConverterAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = otbs.LocalizableConverterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalizableConverterApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LocalizableConverterApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalizableConverter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LocalizableConverter";
 			};
 			name = Release;
 		};
@@ -478,11 +484,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = otbs.LocalizableConverterAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = otbs.LocalizableConverterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = LocalizableConverterApp;
+				TEST_TARGET_NAME = LocalizableConverter;
 			};
 			name = Debug;
 		};
@@ -493,18 +499,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = otbs.LocalizableConverterAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = otbs.LocalizableConverterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = LocalizableConverterApp;
+				TEST_TARGET_NAME = LocalizableConverter;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E8FD5FEF2D09D489009A8FFB /* Build configuration list for PBXProject "LocalizableConverterApp" */ = {
+		E8FD5FEF2D09D489009A8FFB /* Build configuration list for PBXProject "LocalizableConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8FD60172D09D48B009A8FFB /* Debug */,
@@ -513,7 +519,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8FD60192D09D48B009A8FFB /* Build configuration list for PBXNativeTarget "LocalizableConverterApp" */ = {
+		E8FD60192D09D48B009A8FFB /* Build configuration list for PBXNativeTarget "LocalizableConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8FD601A2D09D48B009A8FFB /* Debug */,
@@ -522,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8FD601C2D09D48B009A8FFB /* Build configuration list for PBXNativeTarget "LocalizableConverterAppTests" */ = {
+		E8FD601C2D09D48B009A8FFB /* Build configuration list for PBXNativeTarget "LocalizableConverterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8FD601D2D09D48B009A8FFB /* Debug */,
@@ -531,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8FD601F2D09D48B009A8FFB /* Build configuration list for PBXNativeTarget "LocalizableConverterAppUITests" */ = {
+		E8FD601F2D09D48B009A8FFB /* Build configuration list for PBXNativeTarget "LocalizableConverterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8FD60202D09D48B009A8FFB /* Debug */,

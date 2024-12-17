@@ -1,14 +1,14 @@
 //
-//  LocalizableConverterAppTests.swift
-//  LocalizableConverterAppTests
+//  LocalizableConverterTests.swift
+//  LocalizableConverterTests
 //
 //  Created by Mohamed Ben Hmida on 2024/12/11.
 //
 
 import Testing
-@testable import LocalizableConverterApp
+@testable import LocalizableConverter
 
-struct LocalizableConverterAppTests {
+struct LocalizableConverterTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

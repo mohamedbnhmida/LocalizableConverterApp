@@ -1,13 +1,13 @@
 //
-//  LocalizableConverterAppUITestsLaunchTests.swift
-//  LocalizableConverterAppUITests
+//  LocalizableConverterUITestsLaunchTests.swift
+//  LocalizableConverterUITests
 //
 //  Created by Mohamed Ben Hmida on 2024/12/11.
 //
 
 import XCTest
 
-final class LocalizableConverterAppUITestsLaunchTests: XCTestCase {
+final class LocalizableConverterUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
