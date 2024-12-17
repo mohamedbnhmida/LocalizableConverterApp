@@ -8,12 +8,7 @@ A powerful macOS tool built with SwiftUI that enables developers to search acros
 ## 🚀 Features
 
 - **Search Functionality:** Quickly search through compiled localized strings across the `Pods` folder.  
-- **Conversion to Human-Readable Format:** Decode compiled `.strings` files into readable `.strings` or `.csv` format.  
-- **Emoji Support:** Add emojis to make localization files visually appealing and easier to read.  
-- **SwiftUI Interface:** A sleek and modern interface designed for ease of use.  
-- **Batch Processing:** Process multiple files or directories at once for maximum productivity.  
-- **Cross-Pod Support:** Easily handle localization files from various dependencies in the `Pods` folder.
-
+- **Conversion to Human-Readable Format:** Decode compiled `.strings` files into readable `.strings` format.    
 ---
 
 ## 🛠 Requirements
@@ -28,7 +23,7 @@ A powerful macOS tool built with SwiftUI that enables developers to search acros
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/yourusername/localization-tool.git
+   git clone https://github.com/mohamedbnhmida/LocalizableConverterApp.git
    cd localization-tool
    ```
 
@@ -48,36 +43,9 @@ A powerful macOS tool built with SwiftUI that enables developers to search acros
 - Use the search bar to find specific strings or keys.
 
 ### **2. Convert Strings Files**  
-- Click on the "Convert" button to decode the compiled `.strings` files into human-readable format.  
-- Choose the desired output format (`.strings`, `.csv`, etc.).  
-
-### **3. Emojis in Localized Files**  
-- Enable the "Include Emojis" option to automatically add relevant emojis to your localized strings for better readability.  
-
----
-
-## 🤩 Sample Output
-
-### **Input:**  
-```plaintext
-/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "123"; */
-"123.normalTitle" = "OK";
-```
-
-### **Output with Emojis:**  
-```plaintext
-/* Button ➡️ Confirm Action */
-"OK ✅" = "OK";
-```
-
----
-
-## 🎨 UI Preview
-
-- A clean and intuitive SwiftUI interface with real-time previews of decoded files.  
-- Progress indicators for batch processes.  
-
----
+- Click on the "Convert" button to decode the compiled `.strings` files into human-readable format.   
+ 
+--- 
 
 ## 🧑‍💻 Contributing
 
@@ -104,4 +72,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Feel free to contact me at `youremail@example.com` if you have any questions or suggestions!
+Feel free to contact me at `mohamed.benhmida@isimg.tn` if you have any questions or suggestions!
